@@ -257,8 +257,10 @@ button:hover {
   }
   
   .search-options {
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin-top: 0px;
   }
   
   .option-group {
@@ -273,6 +275,11 @@ button:hover {
   .controls button, 
   .controls select {
     width: 100%;
+  }
+  .separar{
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
   }
 }
 
